@@ -1,0 +1,26 @@
+---
+title: "Matteo Larrode"
+image: "profile.png"
+links:
+  - label: GitHub
+    url: "https://github.com/MatteoLarrode"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/matteo-larrode-71187120a/"
+  - label: Email
+    url: "mailto:matteo.larrode@gmail.com"
+output:
+  postcards::jolla
+---
+
+Hey!
+
+I'm Matteo Larrode, Volunteer Data Scientist at [L'Equipage Solidaire](https://delivraide.org). 
+
+
+I study Politics, Economics and Philosophy at University College London (UCL) with a specialization in Social Data Science. I am passionate about research and absolutely adore the mix of quantitative methods and humanities subjects that my degree has to offer. I had the opportunity to work with natural language processing, spatial analysis, regression and even time-series analysis. 
+  
+  
+Currently in a year abroad in  Washington DC, at the George Washington University. I am taking classes of data mining, data vizualization and data analytics for International Relations. I work with Laila Sorurbakhsh, PhD, on a quantitative study of interest group behaviour in the face of policy risk. I am also developing a RShiny app to build an interactive map of Indian election results, in collaboration with Emmanuel Teitelbaum, PhD.
+
+
+Outside of work I like to build bikes, play football, climb, and surf! 
