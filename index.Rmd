@@ -1,9 +1,6 @@
 ---
 title: "Matteo Larrode"
 image: "profile.png"
-color1: "#5A59A3"
-color2: "#C66060"
-angle: 130
 links:
   - label: GitHub
     url: "https://github.com/MatteoLarrode"
@@ -12,18 +9,25 @@ links:
   - label: Email
     url: "mailto:matteo.larrode@gmail.com"
 output:
-  postcards::onofre
+  postcards::trestles
 ---
 
 Hey!
 
-I'm Matteo Larrode, Volunteer Data Scientist at [L'Equipage Solidaire](https://delivraide.org). 
+I'm Matteo Larrode, Volunteer Data Scientist at [L'Equipage Solidaire](https://delivraide.org), a French non-profit that delivers food and hygenic supplies to students in need at their home, for free. I believe that data can be a powerful tool for positive change, and I am committed to using my skills to help make a difference. I use a variety of tools including Tableau and RShiny to reach this objective, and also enjoy building side projects like this [shiny app mapping election results in India](https://matteolarrode.shinyapps.io/mapelectionsindia/?_ga=2.169367457.1295429016.1680480062-1674700938.1679507361), in collaboration with Emmanuel Teitelbaum, PhD.
 
+Having lived in France, London, and Washington D.C., and having worked as a Research Assistant with Dr. Laila Sorurbakhsh, I've had the chance to meet wonderful friends and mentors, from all around the world. Outside of work and academia, I like to build bikes, play football, climb, and surf! 
 
-I study Politics, Economics and Philosophy at University College London (UCL) with a specialization in Social Data Science. I am passionate about research and absolutely adore the mix of quantitative methods and humanities subjects that my degree has to offer. I had the opportunity to work with natural language processing, spatial analysis, regression and even time-series analysis. 
-  
-  
-Currently in a year abroad in  Washington DC, at the George Washington University. I am taking classes of data mining, data vizualization and data analytics for International Relations. I work with Laila Sorurbakhsh, PhD, on a quantitative study of interest group behaviour in the face of policy risk. I am also developing a RShiny app to build an interactive map of Indian election results, in collaboration with Emmanuel Teitelbaum, PhD.
+Thank you for visiting my website, and please don't hesitate to reach out if you have any questions or would like to learn more about my work.
 
+## Education
 
-Outside of work I like to build bikes, play football, climb, and surf! 
+**University College London** | London, UK
+
+B.Sc. in Politics, Philosophy & Economics w/ Social Data Analysis | September 2020 - May 2024
+
+## Experience
+
+**Equipage Solidaire** | Volunteer Data Scientist | January 2023 - Present
+
+**Elliott School of IR (GWU)** | Washington, D.C. | Research Assistant | August 2022 - Present
