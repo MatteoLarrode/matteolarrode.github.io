@@ -6,8 +6,11 @@ links:
     url: "https://github.com/MatteoLarrode"
   - label: LinkedIn
     url: "https://www.linkedin.com/in/matteo-larrode-71187120a/"
-  - label: Email
+  - label: Mail
     url: "mailto:matteo.larrode@gmail.com"
+  - label: Blog
+    url: "http://shorturl.at/tPQT9"
+
 output:
   postcards::trestles
 ---
