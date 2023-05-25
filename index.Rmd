@@ -17,7 +17,9 @@ output:
 
 Hey!
 
-I'm Matteo Larrode, Volunteer Data Scientist at [L'Equipage Solidaire](https://delivraide.org), a French non-profit that delivers food and hygenic supplies to students in need at their home, for free. I believe that data can be a powerful tool for positive change, and I am committed to using my skills to help make a difference. I use a variety of tools including Tableau and RShiny to reach this objective, and also enjoy building side projects like this [shiny app mapping election results in India](https://matteolarrode.shinyapps.io/mapelectionsindia/?_ga=2.169367457.1295429016.1680480062-1674700938.1679507361), in collaboration with Emmanuel Teitelbaum, PhD.
+I'm Matteo Larrode, Volunteer Data Scientist at [L'Equipage Solidaire](https://delivraide.org), a French non-profit that delivers food and hygenic supplies to students in need at their home, for free. In this role, I had the opportunity to build my first package, [packageSolidaire](https://matteolarrode.github.io/packageSolidaire/), a companion to pre-process our data, and to plot and map deliveries using the visual identity of the charity.
+
+I believe that data can be a powerful tool for positive change, and I am committed to using my skills to help make a difference. I use a variety of tools including Tableau and RShiny to reach this objective, and also enjoy building side projects like this [shiny app mapping election results in India](https://matteolarrode.shinyapps.io/mapelectionsindia/?_ga=2.169367457.1295429016.1680480062-1674700938.1679507361), in collaboration with Emmanuel Teitelbaum, PhD.
 
 Having lived in France, London, and Washington D.C., and having worked as a Research Assistant with Dr. Laila Sorurbakhsh, I've had the chance to meet wonderful friends and mentors, from all around the world. Outside of work and academia, I like to build bikes, play football, climb, and surf! 
 
