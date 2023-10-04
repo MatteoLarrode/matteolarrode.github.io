@@ -15,24 +15,30 @@ output:
   postcards::trestles
 ---
 
-Hey!
+Hi!
 
-I'm Matteo Larrode, Volunteer Data Scientist at [L'Equipage Solidaire](https://delivraide.org), a French non-profit that delivers food and hygenic supplies to students in need at their home, for free. In this role, I had the opportunity to build my first package, [packageSolidaire](https://matteolarrode.github.io/packageSolidaire/), a companion to pre-process our data, and to plot and map deliveries using the visual identity of the charity.
+I'm Mattéo, I firmly believe that data can drive positive social change, and I'm committed to applying my skills to create meaningful impact.
 
-I believe that data can be a powerful tool for positive change, and I am committed to using my skills to help make a difference. I use a variety of tools including Tableau and RShiny to reach this objective, and also enjoy building side projects like this [shiny app mapping election results in India](https://matteolarrode.shinyapps.io/mapelectionsindia/?_ga=2.169367457.1295429016.1680480062-1674700938.1679507361), in collaboration with Emmanuel Teitelbaum, PhD.
+As a data science intern at the British Red Cross, I am contributing to the development of the [Health Inequalities Explorer](https://britishredcross.shinyapps.io/health-inequalities-explorer/), an open-source web app aimed at aiding decision-making within operational teams at the British Red Cross. This app is enhanced and supported by the [humaniverse](https://github.com/humaniverse) suite of open-source R packages, which centralises health inequalities data across the UK.
+
+I'm also Volunteer Head of Data & Analytics at [L'Equipage Solidaire](https://delivraide.org), a French non-profit that fights food waste and the cost of living crisis by delivering food and hygienic supplies to needy students at their home, for free. In this role, I lead a team of three data scientists, with the objectives of advocating for data-driven decisions, increasing our transparency, and ensuring an ethical use of data. I am also building an open-source package, [packageSolidaire](https://matteolarrode.github.io/packageSolidaire/), which is a companion to pre-process our data, and to plot and map deliveries using the visual identity of the charity.
+
+These experiences, along with side projects like this [shiny app mapping election results in India](https://matteolarrode.shinyapps.io/mapelectionsindia/?_ga=2.169367457.1295429016.1680480062-1674700938.1679507361), built in collaboration with Emmanuel Teitelbaum, PhD, honed my skills in data storytelling, inferential statistics, and critical thinking. But most of all, they opened my eyes on the importance of translating data into actionable insights.
 
 Having lived in France, London, and Washington D.C., and having worked as a Research Assistant with Dr. Laila Sorurbakhsh, I've had the chance to meet wonderful friends and mentors, from all around the world. Outside of work and academia, I like to build bikes, play football, climb, and surf! 
 
-Thank you for visiting my website, and please don't hesitate to reach out if you have any questions or would like to learn more about my work.
+Thank you for visiting my web page, and please don't hesitate to reach out if you have any questions or would like to learn more about my work.
 
 ## Education
 
-**University College London** | London, UK
+**University College London** | London, UK | B.Sc. Politics, Philosophy & Economics w/ Social Data Analysis | September 2020 - May 2024
 
-B.Sc. in Politics, Philosophy & Economics w/ Social Data Analysis | September 2020 - May 2024
+**George Washington University** | Washington D.C., USA | Year Abroad | August 2022 - May 2023
 
 ## Experience
 
-**Equipage Solidaire** | Volunteer Data Scientist | January 2023 - Present
+**British Red Cross - Strategic Insights & Foresight** | Data Scientist (Intern) | July 2023 - Present
 
-**Elliott School of IR (GWU)** | Washington, D.C. | Research Assistant | August 2022 - Present
+**Equipage Solidaire** | Head of Data & Analytics | January 2023 - Present
+
+**Elliott School of IR (GWU)** | Washington, D.C. | Research Assistant | August 2022 - May 2023
