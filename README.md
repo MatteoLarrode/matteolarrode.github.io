@@ -1,3 +1,3 @@
-# Overview
+# Personal website & portfolio
 
-Uses the [postcards](https://github.com/seankross/postcards) R package. Use rmarkdown::render("index.Rmd") to knit Rmd to HTML.
+Template from ![HTML5 UP](https://html5up.net). Free for personal and commercial use under the CCA 3.0 ![license](html5up.net/license).
