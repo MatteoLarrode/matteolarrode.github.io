@@ -1,5 +1,5 @@
 ---
-title: "Matteo Larrode"
+title: "Matteo Larrode\nMSc Social Data Science at the University of Oxford"
 image: "profile.png"
 links:
   - label: GitHub
@@ -8,8 +8,6 @@ links:
     url: "https://www.linkedin.com/in/matteo-larrode-71187120a/"
   - label: Mail
     url: "mailto:matteo.larrode@gmail.com"
-  - label: Blog
-    url: "http://shorturl.at/tPQT9"
 
 output:
   postcards::trestles
@@ -18,6 +16,9 @@ output:
 Hi!
 
 I'm Mattéo, I firmly believe that data can drive positive social change, and I'm committed to applying my skills to create meaningful impact.
+
+I'm currently enrolled in a Social Data Science MSc at the University of Oxford
+
 
 As a data science intern at the British Red Cross, I am contributing to the development of the [Health Inequalities Explorer](https://britishredcross.shinyapps.io/health-inequalities-explorer/), an open-source web app aimed at aiding decision-making within operational teams at the British Red Cross. This app is enhanced and supported by the [humaniverse](https://github.com/humaniverse) suite of open-source R packages, which centralises health inequalities data across the UK.
 
