@@ -72,6 +72,50 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* === NavBar Styling Aligned with Site Theme === */
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  padding: 1em 3em;
+}
+
+#header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5em;
+}
+
+#header nav ul li a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #000000;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+  letter-spacing: -0.05em;
+}
+
+#header nav ul li a:hover {
+  color: #000000;
+}
+
 /* Basic */
 
 	@-ms-viewport {
