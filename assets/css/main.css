@@ -258,6 +258,8 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.5rem;
+		margin-top: 0.5em;
+		margin-bottom: 0.2em;
 	}
 
 	h4 {
@@ -8650,5 +8652,13 @@ input, select, textarea {
 .sub-details {
   font-size: 0.85em;
   line-height: 1.4;
-  margin-top: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 1em;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
 }
