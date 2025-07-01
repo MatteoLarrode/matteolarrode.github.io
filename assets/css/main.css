@@ -83,7 +83,7 @@ input, select, textarea {
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  padding: 1em 3em;
+  padding: 0.4em 2em;
 }
 
 #header nav {
@@ -8645,3 +8645,10 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+/* Condensed font styling for summary details */
+.sub-details {
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin-top: 0.2em;
+}
