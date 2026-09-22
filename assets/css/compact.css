@@ -1,0 +1,220 @@
+/*
+	Compact layer on top of HTML5 UP "Story" (main.css).
+	Tightens type scale and spacing, and adds the few components
+	used by the single-column layout (hero, timeline, cards, events).
+*/
+
+:root {
+	--text: #111;
+	--muted: #666;
+	--rule: #e4e4e4;
+	--card: #fafafa;
+	--measure: 72rem;
+	--prose: 48rem;
+}
+
+/* Type: the template scales html up to 18pt on wide screens */
+
+	html { font-size: 17.5px; scroll-behavior: smooth; scroll-padding-top: 4rem; }
+
+	@media screen and (max-width: 736px) {
+		html { font-size: 16px; }
+	}
+
+	body { color: var(--text); line-height: 1.55; }
+	p { margin: 0 0 0.9rem 0; }
+	h1 { font-size: 2.6rem; margin-bottom: 0.25rem; }
+	h2 { font-size: 1.75rem; margin: 0 0 1rem 0; }
+	h3 { font-size: 1.2rem; margin: 1.5rem 0 0.75rem 0; font-weight: 400; letter-spacing: 0; }
+
+	.muted { color: var(--muted); }
+
+/* Header */
+
+	#header nav { max-width: var(--measure); margin: 0 auto; padding: 0.75rem 1.5rem; }
+	#header nav ul li a { font-size: 1rem; letter-spacing: 0; }
+
+/* Page column */
+
+	.page {
+		max-width: var(--measure);
+		margin: 0 auto;
+		padding: 5rem 1.5rem 2rem 1.5rem;
+	}
+
+	.page > section {
+		padding: 2.25rem 0;
+		border-top: 1px solid var(--rule);
+	}
+
+	.page > section:first-child { border-top: 0; padding-top: 0; }
+
+	.section-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		gap: 1rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.section-head h2 { margin: 0; }
+
+/* Hero */
+
+	.hero {
+		display: grid;
+		grid-template-columns: 9rem 1fr;
+		gap: 2rem;
+		align-items: start;
+	}
+
+	.hero img {
+		width: 9rem;
+		height: 9rem;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+
+	.hero p { max-width: var(--prose); }
+
+	.hero .tagline {
+		font-size: 1.1rem;
+		color: var(--muted);
+		margin-bottom: 1rem;
+	}
+
+	.hero ul.icons { margin: 0.25rem 0 0 0; }
+
+	@media screen and (max-width: 736px) {
+		.hero { grid-template-columns: 1fr; gap: 1rem; }
+		.hero img { width: 6.5rem; height: 6.5rem; }
+	}
+
+/* Timeline (experience / education / events) */
+
+	.timeline { list-style: none; margin: 0; padding: 0; }
+
+	.timeline > li {
+		display: grid;
+		grid-template-columns: 7.5rem 1fr;
+		gap: 1.25rem;
+		padding: 0 0 1rem 0;
+		margin: 0;
+	}
+
+	.timeline .when {
+		color: var(--muted);
+		font-size: 0.95rem;
+		font-variant-numeric: tabular-nums;
+		padding-top: 0.1rem;
+	}
+
+	.timeline .what strong { display: block; }
+	.timeline .role { color: var(--muted); font-size: 1rem; }
+	.timeline .what p { margin: 0.25rem 0 0 0; font-size: 1rem; max-width: var(--prose); }
+	.page > section > p { max-width: var(--prose); }
+
+	@media screen and (max-width: 736px) {
+		.timeline > li { grid-template-columns: 1fr; gap: 0; }
+	}
+
+/* Events: denser single-line rows */
+
+	.events > li { padding-bottom: 0.6rem; }
+
+	.tag {
+		display: inline-block;
+		font-size: 0.72rem;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		border: 1px solid var(--rule);
+		border-radius: 3px;
+		padding: 0 0.4rem;
+		margin-left: 0.4rem;
+		color: var(--muted);
+		vertical-align: 0.1em;
+	}
+
+/* Projects: grid of horizontal cards, replaces the carousel */
+
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(21rem, 100%), 1fr));
+		gap: 1rem;
+	}
+
+	.card {
+		display: grid;
+		grid-template-columns: 5.5rem 1fr;
+		gap: 1rem;
+		padding: 0.9rem;
+		background: var(--card);
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+	}
+
+	.card img {
+		width: 5.5rem;
+		height: 5.5rem;
+		object-fit: cover;
+		border-radius: 4px;
+	}
+
+	.card h3 { margin: 0 0 0.3rem 0; font-size: 1.05rem; }
+	.card p { font-size: 0.95rem; margin: 0 0 0.7rem 0; line-height: 1.5; }
+
+	.card .links { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+		padding: 0.2rem 0.65rem;
+		font-size: 0.85rem;
+		font-weight: 400;
+		color: var(--text);
+		text-decoration: none;
+		background: #fff;
+		border: 1px solid #bbb;
+		border-radius: 4px;
+		transition: background 0.15s, color 0.15s, border-color 0.15s;
+	}
+
+	.btn:hover { background: var(--text); border-color: var(--text); color: #fff; }
+	.btn .icon { font-size: 0.8rem; }
+
+
+/* Contact */
+
+	#contact form { margin: 0; }
+	#contact .fields { margin-bottom: 1rem; }
+	#contact textarea { min-height: 6rem; }
+
+	footer.site-footer {
+		max-width: var(--measure);
+		margin: 0 auto;
+		padding: 1rem 1.5rem 2rem 1.5rem;
+		font-size: 0.8rem;
+		color: var(--muted);
+	}
+
+	.events .what strong { display: inline; }
+	.events .what strong a { text-decoration: none; }
+	.events .what strong a:hover { text-decoration: underline; }
+	.events .role { display: block; }
+	.events .note {
+		max-width: var(--prose);
+		margin-top: 0.35rem;
+		padding-left: 0.75rem;
+		border-left: 2px solid var(--rule);
+		color: var(--text);
+		font-size: 0.95rem;
+	}
+	.events .note a { font-size: 0.9rem; }
+
+	@media screen and (max-width: 480px) {
+		#header nav { padding: 0.6rem 1rem; }
+		#header nav ul { gap: 0.9rem; }
+		#header nav ul li a { font-size: 0.9rem; }
+		.page { padding-left: 1rem; padding-right: 1rem; }
+	}

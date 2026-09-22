@@ -3,228 +3,253 @@
 	Matteo Larrode
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Matteo Larrode</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/compact.css" />
 	</head>
-	<body class="is-preload">
+	<body>
 
 		<!-- Header -->
-		<header id="header" class="alt">
+		<header id="header">
 			<nav>
 				<ul>
-				<li><a href="#home" class="smooth-scroll">ML</a></li>
+					<li><a href="#home">ML</a></li>
 				</ul>
 				<ul>
-				<li><a href="#about" class="smooth-scroll">About</a></li>
-				<li><a href="#research" class="smooth-scroll">Research</a></li>
-				<li><a href="#contact" class="smooth-scroll">Contact</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#events">Events</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+		<main class="page">
 
-				<!-- One -->
-					<section id="home" class="banner style3 orient-left content-align-left image-position-right onload-image-fade-in onload-content-fade-right fullscreen">
-						<div class="content">
-							<h1>Mattéo Larrodé</h1>
-							<p class="major">MSc Social Data Science @ the University of Oxford</p>
-							<p>I am specialising in data science for social good, and where machine learning meets humanitarian decision-making.</p>
-							<ul class="icons">
-								<li><a href="https://github.com/MatteoLarrode" class="icon brands style1 fa-github"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.linkedin.com/in/matteo-larrode-71187120a/" class="icon brands style1 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:matteo.larrode@oii.ox.ac.uk" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/profile2.jpeg" alt="" />
-						</div>
-					</section>
+			<!-- Intro -->
+			<section id="home" class="hero">
+				<img src="images/profile_small.jpg" alt="Portrait of Mattéo Larrodé" />
+				<div>
+					<h1>Mattéo Larrodé</h1>
+					<p class="tagline">Data Analyst @ the Zambia Evidence Lab<br />
+						MSc Social Data Science @ the University of Oxford</p>
+					<p>
+						I want to put data science to work for social good, and I'm especially drawn to how machine learning and AI can strengthen humanitarian decision-making and improve the lives of vulnerable people.
+					</p>
+					<p>
+						Having built data tools at the British Red Cross and within Zambia's Ministry of Finance, I'm most interested in the questions humanitarian and human rights organisations face every day: where displaced people are and what they need, how populations move when a crisis hits, and how to document abuses with evidence that holds up.
+					</p>
+					<p>
+						Open-source investigation and data storytelling are part of how I approach these questions, turning scattered data into evidence people can act on. I take a lot of inspiration from <a href="https://forensic-architecture.org/" target="_blank">Forensic Architecture</a>, <a href="https://www.lighthousereports.com/" target="_blank">Lighthouse Reports</a> and <a href="https://hrdag.org/" target="_blank">the Human Rights Data Analysis Group</a>, and from <a href="https://pudding.cool/" target="_blank">The Pudding</a>, who opened my eyes to what creative data visualisation can do.
+					</p>
+					<ul class="icons">
+						<li><a href="https://github.com/MatteoLarrode" class="icon brands style1 fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/matteo-larrode-71187120a/" class="icon brands style1 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:matteo.larrode2@gmail.com" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</section>
 
-				<!-- Two -->
-					<section id="about" class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in fullscreen" id="first">
-						<div class="content">
-							<div class="about-header">
-  								<h2>About</h2>
-  								<a href="assets/documents/Matteo_Larrode_CV_01_07.pdf" class="button small" target="_blank">See CV</a>
+			<!-- Projects -->
+			<section id="projects">
+				<h2>Research &amp; Open-source</h2>
+				<p>As a strong open-source enthusiast, I make my research, and personal projects as transparent and reproducible as possible. Here is a little selection!</p>
+				<div class="cards">
+					<article class="card">
+						<img src="images/gallery/thumbs/gaza_with_flag.png" alt="" />
+						<div>
+							<h3>Monitoring of Building Destruction in Gaza</h3>
+							<p>Detecting building damage in Gaza using public Sentinel-1 data with machine learning.</p>
+							<div class="links">
+								<a href="https://github.com/MatteoLarrode/ML-BuildingDamageViaSatellite" class="btn" target="_blank"><span class="icon brands fa-github"></span> GitHub</a>
+								<a href="assets/documents/Gaza_building_damage_ML.pdf" class="btn" target="_blank"><span class="icon solid fa-file-pdf"></span> PDF</a>
 							</div>
-								<h3>Education</h3>
-									<strong>Oxford Internet Institute, University Of Oxford (2024 - 2025)</strong></br>
-									<div class="sub-details">
-										MSc Social Data Science </br>
-										Fully-funded scholarship (OII Shirley Scholars Fund)</br>
-										Member of the <a href="https://oxrml.github.io"><em>Reasoning with Machines Lab</em></a></br>
-										Thesis: "Extracting Social Determinants of Health from British
-										Red Cross Referrals using Large Language Models" - supervised by <a href="https://scholar.google.com/citations?user=jUDSqzEAAAAJ&hl=en">Dr. Adam Mahdi</a></br>
-									</div>
-									<strong>University College London (2020 - 2024)</strong></br>
-									<div class="sub-details">
-										BSc Politics, Philosophy & Economics w/ Social Data Science	</br>
-										First Class Honours </br>
-										Dissertation: "Impoverishing Families? Exploring the Impact of Universal Credit on Child Poverty and Lone Parent Households in the UK" (78%)</br> 
-									</div>
-								
-								<h3>Experience</h3>
-									<strong>British Red Cross, Strategic Insight & Foresight (2023 - 2024)</strong></br>
-									<div class="sub-details">
-										Data Scientist (Part-time)</br>
-										I contributed to the development of the Health Inequalities Explorer, and of the <code>humaniverse</code> suite of open-source R packages, which centralises health inequalities data across the UK.
-									</div>
-									<strong>Equipage Solidaire (2022 - 2024)</strong></br>
-									<div class="sub-details">
-										Volunteer Head of Data & Analytics </br>
-										L'<em>Equipage Solidaire</em> is a French non-profit that fights food insecurity and overall deprivation among students by delivering food and hygienic supplies to their home, for free. For a year, I led its team of three data scientists.
-									</div>
-									<strong>Elliott School of International Affairs, George Washington University (2022 - 2023)</strong></br>
-									<div class="sub-details">
-										Research assistant </br>
-									</div>
 						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="research" class="wrapper style1 align-center fullscreen">
-						<div class="inner">
-							<h2>Research & Open-source</h2>
-							<p>As a strong open-source enthusiast, I make my research, and personal projects as transparent and reproducible as possible. Here is a little selection!</p>
-						</div>
-						<!-- Gallery 1-->
-							<div class="gallery style2 small lightbox onscroll-fade-in">
-								<article>
-									<a href="https://github.com/humaniverse/wildfires" class="image" target="_blank">
-										<img src="images/gallery/thumbs/wildfires.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Wildfire Risk and Social Vulnerability</h3>
-										<p>The <code>wildfires</code> R package provides easy access to data on the coupling of wildfire risk (modelled via random forest) & social vulnerability in the UK. Paper under review for publication in the <i>International Journal of Disaster Risk Reduction</i>.</p>
-										<ul class="actions fixed">
-											<li><a href="https://github.com/humaniverse/wildfires" class="button small" target="_blank">GitHub</a></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="https://github.com/britishredcrosssociety/health-inequalities-explorer" class="image" target="_blank">
-										<img src="images/gallery/thumbs/HIE.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Health Inequalities Explorer</h3>
-										<p>Open access web app to explore location based health inequalities across different UK geographies.</p>
-										<ul class="actions fixed">
-											<li><a href="https://britishredcross.shinyapps.io/health-inequalities-explorer" class="button small" target="_blank">Web App</a></li>
-											<li><a href="https://github.com/britishredcrosssociety/health-inequalities-explorer" class="button small" target="_blank">GitHub</a></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="https://github.com/MatteoLarrode/ML-BuildingDamageViaSatellite" class="image" target="_blank">
-										<img src="images/gallery/thumbs/gaza_with_flag.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Monitoring of Building Destruction in Gaza</h3>
-										<p>Detecting building damage in Gaza using public Sentinel-1 data with machine learning.</p>
-										<ul class="actions fixed">
-											<li><a href="https://github.com/MatteoLarrode/ML-BuildingDamageViaSatellite" class="button small" target="_blank">GitHub</a></li>
-											<li><a href="" class="button small" target="_blank">PDF</a></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="https://github.com/MatteoLarrode/NLP-SexismRapFr" class="image" target="_blank">
-										<img src="images/gallery/thumbs/balance_ton_rap.png" alt="" />
-									</a>	
-									<div class="caption">
-										<h3>"Balance Ton Rap"</h3>
-										<p>Quantifying gender stereotypes in 8,000 French rap songs using word embedding association tests.</p>
-										<ul class="actions fixed">
-											<li><a href="https://github.com/MatteoLarrode/NLP-SexismRapFr" class="button small" target="_blank">GitHub</a></li>
-											<li><a href="" class="button small" target="_blank">PDF</a></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="https://github.com/MatteoLarrode/PeakyBlinders_Network" class="image" target="_blank">
-										<img src="images/gallery/thumbs/peaky2.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>A <i>Peaky Blinders</i> Network Analysis</h3>
-										<p>An introductory network analysis of the <i>Peaky Blinders</i> TV show, using web-scraped transcripts of all 36 episodes.</p>
-										<ul class="actions fixed">
-											<li><a href="https://github.com/MatteoLarrode/PeakyBlinders_Network" class="button small" target="_blank">GitHub</a></li>
-											<li><a href="" class="button small" target="_blank">PDF</a></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="https://github.com/humaniverse/DEPAHRI" class="image" target="_blank">
-										<img src="images/gallery/thumbs/DEPAHRI.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>DEPAHRI</h3>
-										<p>The Digital Exclusion and Physical Access to Healthcare Risk Index indicates the overall difficulty of physically and digitally accessing healthcare services in England, Wales and Scotland. Source code and data available through the <code>DEPAHRI</code> R package</p>
-										<ul class="actions fixed">
-											<li><a href="https://github.com/humaniverse/DEPAHRI" class="button small" target="_blank">GitHub</a></li>
-										</ul>
-									</div>
-								</article>
+					</article>
+					<article class="card">
+						<img src="images/gallery/thumbs/wildfires.png" alt="" />
+						<div>
+							<h3>Wildfire Risk and Social Vulnerability</h3>
+							<p>The <code>wildfires</code> R package couples wildfire risk (modelled via random forest) with social vulnerability in the UK. Paper under review in the <i>International Journal of Disaster Risk Reduction</i>.</p>
+							<div class="links">
+								<a href="https://github.com/humaniverse/wildfires" class="btn" target="_blank"><span class="icon brands fa-github"></span> GitHub</a>
 							</div>
-
-					</section>
-
-				<!-- Four -->
-					<section id="contact" class="wrapper style1 align-center fullscreen">
-						<div class="inner medium">
-							<h2>Get in touch</h2>
-							<form action="https://formspree.io/f/xpwrbjvq" method="POST">
-								<div class="fields">
-									<div class="field half">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" required>
-									</div>
-									<div class="field half">
-									<label for="email">Email</label>
-									<input type="email" name="email" id="email" required>
-									</div>
-									<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="3" required></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" value="Send Message"></li>
-								</ul>
-							</form>
-								<ul class="icons">
-								<li><a href="https://github.com/MatteoLarrode" class="icon brands style2 fa-github"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.linkedin.com/in/matteo-larrode-71187120a/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:matteo.larrode@oii.ox.ac.uk" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							</form>
-
 						</div>
-					</section>
-
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<p>Design by <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</article>
+					<article class="card">
+						<img src="images/gallery/thumbs/HIE.png" alt="" />
+						<div>
+							<h3>Health Inequalities Explorer</h3>
+							<p>Open access web app to explore location based health inequalities across different UK geographies.</p>
+							<div class="links">
+								<a href="https://github.com/britishredcrosssociety/health-inequalities-explorer" class="btn" target="_blank"><span class="icon brands fa-github"></span> GitHub</a>
+								<a href="https://britishredcross.shinyapps.io/health-inequalities-explorer" class="btn" target="_blank"><span class="icon solid fa-external-link-alt"></span> Web App</a>
+							</div>
 						</div>
-					</footer>
-			</div>
+					</article>
+					<article class="card">
+						<img src="images/gallery/thumbs/DEPAHRI.png" alt="" />
+						<div>
+							<h3>DEPAHRI</h3>
+							<p>An index of how hard it is to physically and digitally access healthcare in England, Wales and Scotland. Source code and data in the <code>DEPAHRI</code> R package.</p>
+							<div class="links">
+								<a href="https://github.com/humaniverse/DEPAHRI" class="btn" target="_blank"><span class="icon brands fa-github"></span> GitHub</a>
+							</div>
+						</div>
+					</article>
+					<article class="card">
+						<img src="images/gallery/thumbs/balance_ton_rap.png" alt="" />
+						<div>
+							<h3>"Balance Ton Rap"</h3>
+							<p>Quantifying gender stereotypes in 8,000 French rap songs using word embedding association tests.</p>
+							<div class="links">
+								<a href="https://github.com/MatteoLarrode/NLP-SexismRapFr" class="btn" target="_blank"><span class="icon brands fa-github"></span> GitHub</a>
+								<a href="assets/documents/Sexism_in_French_Rap_using_Embeddings.pdf" class="btn" target="_blank"><span class="icon solid fa-file-pdf"></span> PDF</a>
+							</div>
+						</div>
+					</article>
+					<article class="card">
+						<img src="images/gallery/thumbs/peaky2.png" alt="" />
+						<div>
+							<h3>A <i>Peaky Blinders</i> Network Analysis</h3>
+							<p>An introductory network analysis of the <i>Peaky Blinders</i> TV show, using web-scraped transcripts of all 36 episodes.</p>
+							<div class="links">
+								<a href="https://github.com/MatteoLarrode/PeakyBlinders_Network" class="btn" target="_blank"><span class="icon brands fa-github"></span> GitHub</a>
+								<!-- TODO: add PDF once available -->
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- Experience & Education -->
+			<section id="experience">
+				<div class="section-head">
+					<h2>Experience</h2>
+					<a href="assets/documents/Matteo_Larrode_CV_01_07.pdf" class="button small" target="_blank">See CV</a>
+				</div>
+				<ul class="timeline">
+					<li>
+						<span class="when">2026</span>
+						<div class="what">
+							<strong>International Growth Centre, Zambia Evidence Lab</strong>
+							<span class="role">Data Analyst / Scientist</span>
+							<p>Embedded in Zambia's Ministry of Finance, I built AI-assisted survey classification tools, data pipelines and policy dashboards with government partners.</p>
+						</div>
+					</li>
+					<li>
+						<span class="when">2023 - 2024</span>
+						<div class="what">
+							<strong>British Red Cross, Strategic Insight &amp; Foresight</strong>
+							<span class="role">Data Scientist (Part-time)</span>
+							<p>I contributed to the development of the Health Inequalities Explorer, and of the <code>humaniverse</code> suite of open-source R packages, which centralises health inequalities data across the UK.</p>
+						</div>
+					</li>
+					<li>
+						<span class="when">2022 - 2024</span>
+						<div class="what">
+							<strong>Equipage Solidaire</strong>
+							<span class="role">Volunteer Head of Data &amp; Analytics</span>
+							<p>L'<em>Equipage Solidaire</em> is a French non-profit that fights food insecurity and overall deprivation among students by delivering food and hygienic supplies to their home, for free. For a year, I led its team of three data scientists.</p>
+						</div>
+					</li>
+					<li>
+						<span class="when">2022 - 2023</span>
+						<div class="what">
+							<strong>Elliott School of International Affairs, George Washington University</strong>
+							<span class="role">Research Assistant</span>
+						</div>
+					</li>
+				</ul>
+
+				<h3>Education</h3>
+				<ul class="timeline">
+					<li>
+						<span class="when">2024 - 2025</span>
+						<div class="what">
+							<strong>Oxford Internet Institute, University of Oxford</strong>
+							<span class="role">MSc Social Data Science; fully-funded scholarship (OII Shirley Scholars Fund)</span>
+							<p>Member of the <a href="https://oxrml.github.io" target="_blank"><em>Reasoning with Machines Lab</em></a>. Thesis: "Extracting Social Determinants of Health from British Red Cross Referrals using Large Language Models", supervised by <a href="https://scholar.google.com/citations?user=jUDSqzEAAAAJ&amp;hl=en" target="_blank">Dr. Adam Mahdi</a>.</p>
+						</div>
+					</li>
+					<li>
+						<span class="when">2020 - 2024</span>
+						<div class="what">
+							<strong>University College London</strong>
+							<span class="role">BSc Politics, Philosophy &amp; Economics w/ Social Data Science; First Class Honours</span>
+							<p>Dissertation: "Impoverishing Families? Exploring the Impact of Universal Credit on Child Poverty and Lone Parent Households in the UK" (78%).</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<!-- Events -->
+			<section id="events">
+				<h2>Conferences &amp; Webinars</h2>
+				<p class="muted">Recent events I have attended to keep learning about OSINT and investigative data work.</p>
+				<!--
+					One <li> per event, most recent first. The .note paragraph is optional.
+					Tag: Conference / Webinar / Workshop / Talk
+				-->
+				<ul class="timeline events">
+					<li>
+						<span class="when">8 Sep 2026</span>
+						<div class="what">
+							<strong>Funding Strategies for Investigative Journalists</strong><span class="tag">Webinar</span>
+							<span class="role">Global Investigative Journalism Network (GIJN) - Sue Cross</span>
+						</div>
+					</li>
+					<li>
+						<span class="when">7 Sep 2026</span>
+						<div class="what">
+							<strong><a href="https://rss.com/podcasts/bellingcatstagetalk/3131297/" target="_blank">Mapping Hate Networks Across Borders</a></strong><span class="tag">Talk</span>
+							<span class="role">Bellingcat Stage Talks - Michael Colborne &amp; Pooja Chaudhuri</span>
+							<p class="note">How Bellingcat uses network analysis to study transnational hate groups: practical research tips, and the wider context of how these groups operate. <a href="https://rss.com/podcasts/bellingcatstagetalk/3131297/" target="_blank">Recording</a></p>
+						</div>
+					</li>
+					<li>
+						<span class="when">1 Sep 2026</span>
+						<div class="what">
+							<strong>Can data and AI help protect human rights and build peace?</strong><span class="tag">Webinar</span>
+							<span class="role">Human Rights Data Analysis Group, Danish Refugee Council &amp; International Work Group for Indigenous Affairs - Megan Price, Alexander Kjærum, Manoj Aathpahariya &amp; Caleb Gichuhi</span>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact">
+				<h2>Get in touch</h2>
+				<form action="https://formspree.io/f/xpwrbjvq" method="POST">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" required>
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" required>
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="3" required></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message"></li>
+					</ul>
+				</form>
+			</section>
+
+		</main>
+
+		<footer class="site-footer">
+			<p>Design by <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
 
 	</body>
 </html>
